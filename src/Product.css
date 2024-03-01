@@ -1,0 +1,143 @@
+.product-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between; 
+  }
+  
+  .number-circle {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  
+  .product-image {
+    width: 160px;
+    height: 110px;
+    margin-top: 20px;
+    border: 2px inset wheat;
+  }
+  
+  .product-image-span {
+    border: 2px white inset;
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .trophy {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .trophy-img-div {
+    background-color: rgb(197, 149, 6);
+    width: 15vh;
+    height: 3vh;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .trophy-img-div img {
+    width: 15px;
+    height: 19px;
+  }
+  
+  .product-description {
+    color: black;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .des-2 {
+    margin-left: 8px;
+  }
+  
+  .product-rating {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(228, 240, 255);
+    border-radius: 5px;
+    margin: 10px;
+    height: 15vh;
+    width: 20vh;
+  }
+  
+  .rating h2 {
+    margin: 1px;
+    padding: 2px;
+  }
+  
+  .rating h4,
+  .rating h5 {
+    margin: 1px;
+    padding: 2px;
+  }
+  
+  .star-img {
+    width: 10px;
+    height: 8px;
+    background-repeat: repeat-x;
+  }
+  
+  .view-btn {
+    padding: 5px 10px;
+    width: 25vh;
+    height: 6vh;
+    background-color: #007bff;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .product-container {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .product-image {
+      width: 100%; 
+      height: auto;
+      margin-top: 10px;
+    }
+  
+    .product-description,
+    .des-2 {
+      margin: 5px 0; 
+    }
+  
+    .view-btn {
+      width: 100%; 
+    }
+  }
+  
+  
